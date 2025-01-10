@@ -87,7 +87,7 @@ for i=1:N
     r.ts = time_intervals_c.';
     r.mrl = 0;
     r.mi = 0;
-
+    %%%%%%%%%%%%%%%%%%%%%%%%
     cfull = EgocentricRatemap(r, which_animal);
     root.cfull = r;
 
